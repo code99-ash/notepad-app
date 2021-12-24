@@ -51,7 +51,7 @@ export default function Home({navigation}) {
             onLongPress={() => handleSelect(item.id)}
         >
             <View>
-                {selected.includes(item.id) && <Checkbox />}
+                {/* {selected.includes(item.id) && <Checkbox />} */}
                 <Text style={styles.title}>{ item.title }</Text>
                 <Text numberOfLines={1} style={styles.ellipsizeContent}>{ item.content }</Text>
             </View>
